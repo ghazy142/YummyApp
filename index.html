@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./imgs/logo.png" >
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Yummy</title>
+</head>
+<body>    
+ 
+
+<!-- loader -->
+<div id="loader" class="loader justify-content-center align-items-center">
+  <div class="spinner-border text-light" role="status">
+    <span class="visually-hidden">Loading...</span>
+  </div>
+</div>
+
+
+
+<div>
+   <div class="side-nav-menu min-vh-100 position-fixed d-flex">
+  <div class="nav-tab d-flex flex-column justify-content-between min-vh-100  p-4">
+    <div class="linkes">
+      <ul class="list-unstyled  overflow-hidden ">
+        <li onclick="search()" class="py-2 position-relative">
+          Search
+        </li>
+        <li onclick="getCategrioes()" class="py-2 position-relative">
+          Categories
+        </li>
+        <li onclick="getArea()"  class="py-2 position-relative">
+          Area
+        </li>
+        <li onclick="getIngreadintes()"  class="py-2 position-relative">
+          Ingreadintes
+        </li>
+        <li  onclick="contact()"   class="py-2 position-relative">
+          Contact us 
+        </li>
+      </ul>
+    </div>
+    <div class="nav-footer">
+      <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-solid fa-globe"></i>
+      </div>
+      <div class="nav-footer">
+        <p>CopyRight 2019 all rights <br>Reserved</p>
+      </div>
+    </div>
+  </div>
+  <div class="nav-header d-flex flex-column justify-content-between py-4 text-center px-2 bg-white text-black">
+    <img src="./imgs/logo.png" alt="logo" class="logo">
+    <i class="fa-solid open-close-icon fa-align-justify fa-2x"></i>
+
+    <div>
+      <i class="fa-solid fa-globe d-block fa-2x"></i>
+      <i class="fa-solid fa-share-nodes fa-2x"></i>
+    </div> 
+  </div>
+</div>
+
+<!-- search -->
+<div class="container w-75" id="searchContainer"></div>
+<!-- main -->
+
+<div class="container"> 
+  <div class="row py-5" id="rowData">
+   
+  </div>
+</div>
+
+<!-- serach -->
+
+<!-- <div class="container w-75">
+  <div class="row py-4">
+    <div class="col-md-6">
+      <input class="form-control bg-transparent" type="text" placeholder="Search by name">
+    </div>
+    <div class="col-md-6">
+      <input class="form-control bg-transparent" type="text" placeholder="Search by first letter">
+    </div>
+  </div>
+
+</div> -->
+
+
+<!-- contact -->
+
+
+
+
+
+<!-- meal details -->
+ <!-- <div class="container">
+  <div class="row py-4 g-4">
+    <div class="col-md-4">
+      <img class="w-100" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIgTQVA9UOnWeyUvZVzHFEA1PYbu3q7KVpwQ&s" alt="">
+      <h2>name</h2>
+    </div>
+    <div class="col-md-8">
+      <h2> instructions</h2>
+      <p>ffg++</p>
+      <h3><span class="fw-bolder"> Area:</span> jamican </h3>
+      <h3><span class="fw-bolder"> Category:</span> jamican </h3>
+      <h3>Recepies</h3>
+      <ul class="list-unstyled d-flex p-2 m-1">
+        <li class="alert alert-info p-2 m-1">
+          whole chicken
+        </li>
+        <li class="alert alert-info p-2 m-1">
+          whole chicken
+        </li>
+        <li class="alert alert-info p-2 m-1">
+          whole chicken
+        </li>
+        <li class="alert alert-info p-2 m-1">
+          whole chicken
+        </li>
+      </ul>
+      <h3>Tags :</h3>
+      <ul class="list-unstyled d-flex p-2 m-1">
+        <li class="alert alert-danger p-2 m-1">
+          whole chicken
+        </li>
+        <li class="alert alert-danger p-2 m-1">
+          whole chicken
+        </li>
+        <li class="alert alert-danger p-2 m-1">
+          whole chicken
+        </li>
+        <li class="alert alert-danger p-2 m-1">
+          whole chicken
+        </li>
+      </ul>
+      <a  class="btn btn-success m-1">Scource</>
+      <a  class="btn btn-danger m-1">Danger</a>
+    </div>
+  </div>
+ </div> -->
+
+  <script src="./js/bootstrap.bundle.min.js"></script>  
+  <script src="./js/jquery-3.6.0.min.js"></script>  
+  <script src="./js/index.js"></script>  
+</body>
+</html>
